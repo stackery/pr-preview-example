@@ -1,0 +1,9 @@
+{
+  "name": "run-build",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "fs-extra": "4.0.2",
+    "glob": "7.1.2"
+  }
+}
