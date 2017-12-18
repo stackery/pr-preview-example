@@ -7,7 +7,7 @@ branch=$2
 prNumber=$3
 localRepoDir=$4
 
-echo 'localRepoDir: ' $localRepoDir ', repo: ' $repo ', branch: ' $branch ', pr: ' $pr 
+echo 'localRepoDir: ' $localRepoDir ', repo: ' $repo ', branch: ' $branch ', pr: ' $prNumber 
 
 cd $localRepoDir
 
