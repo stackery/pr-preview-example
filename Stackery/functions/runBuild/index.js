@@ -87,6 +87,7 @@ module.exports = function(message) {
         return stackery.output({
           action: 'put',
           key: `${prNumber}/${file}`,
+          publicPermissions: 'read',
           body: fs.readFileSync(`${localRepoDir}/build/${file}`),
           metadata: metadata
         });
